@@ -1,12 +1,12 @@
 [package]
-name = "linkme-impl"
-version = "0.3.31"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+name = "px-linkme-impl"
+version = "0.3.32"
+authors = ["David Tolnay <dtolnay@gmail.com>","gkgoat"]
 description = "Implementation detail of the linkme crate"
-documentation = "https://docs.rs/linkme"
+documentation = "https://docs.rs/px-linkme"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/dtolnay/linkme"
+repository = "https://github.com/portal-co/linkme"
 rust-version = "1.62"
 
 [lib]

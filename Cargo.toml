@@ -1,14 +1,14 @@
 [package]
-name = "linkme"
-version = "0.3.31"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+name = "px-linkme"
+version = "0.3.32"
+authors = ["David Tolnay <dtolnay@gmail.com>","gkgoat"]
 categories = ["development-tools::build-utils", "development-tools::procedural-macro-helpers", "no-std", "no-std::no-alloc"]
 description = "Safe cross-platform linker shenanigans"
-documentation = "https://docs.rs/linkme"
+documentation = "https://docs.rs/px-linkme"
 edition = "2021"
 keywords = ["linkage"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/dtolnay/linkme"
+repository = "https://github.com/portal-co/linkme"
 rust-version = "1.62"
 
 [[test]]
@@ -19,7 +19,7 @@ edition = "2015"
 used_linker = ["linkme-impl/used_linker"]
 
 [dependencies]
-linkme-impl = { version = "=0.3.31", path = "impl" }
+linkme-impl = { version = "=0.3.32", path = "impl", package = "px-linkme-impl" }
 
 [target.'cfg(target_family = "wasm")'.dependencies]
 once_cell = "1.20.2"
