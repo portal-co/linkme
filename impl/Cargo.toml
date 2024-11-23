@@ -1,6 +1,6 @@
 [package]
 name = "px-linkme-impl"
-version = "0.3.32"
+version = "0.3.33"
 authors = ["David Tolnay <dtolnay@gmail.com>","gkgoat"]
 description = "Implementation detail of the linkme crate"
 documentation = "https://docs.rs/px-linkme"
