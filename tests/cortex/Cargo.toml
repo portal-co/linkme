@@ -12,5 +12,5 @@ used_linker = ["linkme/used_linker"]
 cortex-m = "0.7"
 cortex-m-rt = "0.7"
 cortex-m-semihosting = "0.5"
-linkme = { path = "../.." }
+linkme = { path = "../..", package = "px-linkme" }
 panic-semihosting = { version = "0.6", features = ["exit"] }
